@@ -1,4 +1,8 @@
 package Artikelhierarchie;
+/**
+Spezialisierte Unterklasse von Möbel.
+Repräsentiert ein Tisch mit einer Höhe.
+**/
 public class Tisch extends Moebel{
   private double hoehe; 
 
@@ -16,8 +20,4 @@ public class Tisch extends Moebel{
      super.gibAus();
     System.out.println("Die Höhe beträgt " + hoehe);
     }          
-  public static void main(String[] args){
-    Tisch ts = new Tisch(50.2, "Eichenholz", 015464, 250, "Sajad");
-    ts.gibAus();
-    }
     }
