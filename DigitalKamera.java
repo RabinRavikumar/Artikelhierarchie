@@ -25,7 +25,7 @@ public class DigitalKamera extends Artikel{
   public void setOptischenZoom(int optischenZoom){
     this.optischenZoom=optischenZoom;
     }
-  public static void main(String[] args) {
+  public static void main(String[] args){
     DigitalKamera Canon=new DigitalKamera(12.1,3,14.99,56780,"ZoomMaster 3x");
     Canon.gibAus();
     Canon.setAufloesung(16.34);
@@ -34,4 +34,4 @@ public class DigitalKamera extends Artikel{
     Canon.setPreis(50.99); 
     Canon.gibAus();
     }
-  }
+    }
