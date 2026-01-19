@@ -1,4 +1,8 @@
 package Artikelhierarchie;
+/**
+Basisklasse für alle Artikel im Sortiment.
+Enthält gemeinsame Eigenschaften wie Artikelnummer, Preis und Produktname.
+**/
 public class Artikel{
   private int artikelnummer;
   private double preis;
@@ -27,6 +31,8 @@ public class Artikel{
   public void setProduktname(String produktname){
     this.produktname = produktname;
     }
+  
+  //Gibt den Artikel mit seinen wichtigsten Eigenschaften auf der Konsole aus.
   public void gibAus(){
     System.out.println("Der Artikel " + produktname + " mit der Artikelnummer "+ artikelnummer + " kostet "+ preis + "€.");
     }
@@ -45,3 +51,4 @@ public class Artikel{
     Phillips.gibAus(); 
     }
     }
+
