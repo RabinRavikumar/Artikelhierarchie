@@ -28,4 +28,4 @@ public class DVDplayer extends Artikel{
     DVDplayer test1 = new DVDplayer(4160,12.00, "Player2800", "HDMI", true);
     test1.gibAus();
     }
-  }
+    }
