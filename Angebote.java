@@ -33,19 +33,9 @@ public class Angebote{
     }
   
   //Gibt alle Artikel des Angebots aus.
-  
   public void gibAngebotAus(){
     angebot1.gibAus();
     angebot2.gibAus();
     angebot3.gibAus();  
     }
-  public static void main(String[]args) {
-    Artikel artikel1 = new Fernseher(47,true, 300,1457,"Phillips");
-    artikel1.gibAus();
-    Artikel artikel2 = new DVDplayer(4160,12.00, "Player2800", "HDMI", true);
-    Artikel artikel3=new DigitalKamera(12.1,3,14.99,56780,"ZoomMaster 3x");
-    Angebote a1 = new Angebote(artikel1,artikel2,artikel3);
-    a1.gibAngebotAus();  
     }
-    }
-
