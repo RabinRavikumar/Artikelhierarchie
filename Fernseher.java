@@ -29,4 +29,4 @@ public class Fernseher extends Artikel{
     Fernseher Phillips = new Fernseher(47,true, 300,1457,"Phillips");
     Phillips.gibAus();
     }
-  }
+    }
