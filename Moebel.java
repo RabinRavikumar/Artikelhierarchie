@@ -3,7 +3,7 @@ package Artikelhierarchie;
 public class Moebel extends Artikel{
   private String material;
   
-  public Moebel (int artikelnummer,double preis,String produktname,String material){
+  public Moebel (String material,int artikelnummer,double preis,String produktname){
     super(artikelnummer,preis,produktname);
     this.material= material;
     }
@@ -19,3 +19,4 @@ public class Moebel extends Artikel{
     super.gibAus();
     }  
     }
+
