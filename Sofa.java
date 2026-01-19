@@ -1,4 +1,8 @@
-package Artikelhierarchie ;
+package Artikelhierarchie;
+/**
+Die Klasse Sofa stellt ein spezielles Möbelstück dar,
+das zusätzlich eine Anzahl an Sitzgelegenheiten besitzt.
+**/
 public class Sofa extends Moebel{
   private int anzahlSitzGelegenheiten;
   public Sofa (int anzahlSitzGelegenheiten, String material, int artikelnummer,double preis, String produktname){
@@ -24,3 +28,4 @@ public class Sofa extends Moebel{
     s1.getAnzahlSitzGelegenheiten();
     }
     }
+
