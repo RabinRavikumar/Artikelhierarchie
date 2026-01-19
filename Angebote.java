@@ -40,4 +40,4 @@ public class Angebote{
     Angebote a1 = new Angebote(artikel1,artikel2,artikel3);
     a1.gibAngebotAus();  
     }
-  }
+    }
