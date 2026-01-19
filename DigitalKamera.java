@@ -1,4 +1,8 @@
 package Artikelhierarchie;
+/**
+Spezialisierte Unterklasse von Artikel.
+Repräsentiert eine Digitalkamera mit Auflösung und optischem Zoom.
+**/
 public class DigitalKamera extends Artikel{
   private double aufloesung;
   private int optischenZoom;
@@ -8,6 +12,8 @@ public class DigitalKamera extends Artikel{
     this.aufloesung=aufloesung;
     this.optischenZoom=optischenZoom;
     }
+
+  //Gibt alle Informationen zur Digitalkamera aus.
   public void gibAus(){
     super.gibAus();
     System.out.println("Auflösung: "+ aufloesung);
@@ -35,3 +41,4 @@ public class DigitalKamera extends Artikel{
     Canon.gibAus();
     }
     }
+
