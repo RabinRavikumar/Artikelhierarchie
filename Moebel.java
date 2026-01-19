@@ -1,8 +1,9 @@
 package Artikelhierarchie;
+//Unterklasse von Artikel, die ein Möbelstück mit dem zusätzlichen Attribut material darstellt.
 public class Moebel extends Artikel{
   private String material;
   
-  public Moebel (String material, int artikelnummer, double preis,  String produktname){
+  public Moebel (int artikelnummer,double preis,String produktname,String material){
     super(artikelnummer,preis,produktname);
     this.material= material;
     }
@@ -16,9 +17,5 @@ public class Moebel extends Artikel{
     System.out.println("Das Möbelstück besteht aus "+material);
     System.out.println("-----------------------------------");
     super.gibAus();
-      }  
-  public static void main(String[]arg){
-    Moebel Joop = new Moebel("Holz", 25334, 1000, "Schreibtisch");
-    Joop.gibAus();
-  }
-  }
+    }  
+    }
