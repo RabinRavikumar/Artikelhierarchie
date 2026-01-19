@@ -8,8 +8,8 @@ public class Inventur{
   public void gibAus(){
     for (int i = 0; i < sortiment.length; i++){
       sortiment[i].gibAus();
-    } // end of for  
-      }
+      } // end of for  
+    }
   public void gibAus(int zahl){
     sortiment[zahl].gibAus();
     }
@@ -19,7 +19,6 @@ public class Inventur{
   public Artikel getArtikel(int zahl){
     return sortiment[zahl];
     }
-    
   public static void main(String[]args){
     Fernseher Phillips = new Fernseher(47,true, 300,1457,"Phillips");
     DigitalKamera Canon=new DigitalKamera(12.1,3,14.99,56780,"ZoomMaster 3x");
@@ -34,3 +33,4 @@ public class Inventur{
     System.out.println(test.getArtikel(2));  
   }
   }
+
