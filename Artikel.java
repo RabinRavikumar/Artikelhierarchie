@@ -30,7 +30,7 @@ public class Artikel{
   public void gibAus(){
     System.out.println("Der Artikel " + produktname + " mit der Artikelnummer "+ artikelnummer + " kostet "+ preis + "€.");
     }
-  public static void main(String[]args) {
+  public static void main(String[]args){
     Artikel Test = new Artikel(12335,5.55,"Apfel");
     Test.gibAus();
     Test.setArtikelnummer(54738);
@@ -44,4 +44,4 @@ public class Artikel{
     Fernseher Phillips = new Fernseher(47,true, 300,1457,"Phillips");
     Phillips.gibAus(); 
     }
-  }
+    }
