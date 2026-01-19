@@ -36,19 +36,4 @@ public class Artikel{
   public void gibAus(){
     System.out.println("Der Artikel " + produktname + " mit der Artikelnummer "+ artikelnummer + " kostet "+ preis + "€.");
     }
-  public static void main(String[]args){
-    Artikel Test = new Artikel(12335,5.55,"Apfel");
-    Test.gibAus();
-    Test.setArtikelnummer(54738);
-    Test.setPreis(2.95);
-    Test.setProduktname("Grüner Apfel");
-    Test.gibAus();
-    DigitalKamera pixelpro = new DigitalKamera(12.1,3,14.99,56780,"ZoomMaster 3x");
-    pixelpro.gibAus();
-    DVDplayer test1 = new DVDplayer(4160,12.00, "Player2800", "HDMI", true);
-    test1.gibAus();
-    Fernseher Phillips = new Fernseher(47,true, 300,1457,"Phillips");
-    Phillips.gibAus(); 
     }
-    }
-
